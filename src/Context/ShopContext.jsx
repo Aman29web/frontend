@@ -6,6 +6,8 @@ export const ShopContext =createContext(null);
 const ShopConextProvider=(props)=>{
 
     const conextValue={all_product};
+
+    
     return (
         <ShopContext.Provider value={conextValue}>
 
